@@ -11,6 +11,7 @@ html {
 body {
     font-size: 1.6rem;
     font-family: Gordita, sans-serif;
+    color: var(--text-color);
 }
 
 a {
@@ -18,8 +19,20 @@ a {
     text-decoration: none;
 }
 
+button,
+textarea,
+select,
+input {
+    font-family: inherit;
+    color: inherit;
+}
+
 button {
     border: none;
     outline: none;
     background: transparent;
+}
+
+.icon {
+    filter: var(--icon-color);
 }
