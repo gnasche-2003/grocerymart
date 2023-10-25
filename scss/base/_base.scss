@@ -20,21 +20,21 @@ a {
     text-decoration: none;
 }
 
-a,
-img,
-button,
-textarea,
-select,
-input {
-    font-family: inherit;
-    color: inherit;
-    -webkit-tap-highlight-color: transparent;
-}
-
 button {
     border: none;
     outline: none;
     background: transparent;
+}
+
+a,
+img,
+button,
+input,
+textarea,
+select {
+    font-family: inherit;
+    color: inherit;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .icon {
