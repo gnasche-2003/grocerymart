@@ -15,9 +15,7 @@
 
     @include abstracts.screen(md) {
         gap: 16px;
-    }
-
-    &__item {
+        border-radius: 20px;
     }
 
     &__link {
@@ -40,8 +38,5 @@
         &--current {
             color: inherit;
         }
-    }
-
-    &__icon {
     }
 }
