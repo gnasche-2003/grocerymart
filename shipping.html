@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -70,7 +70,7 @@
                 <div class="checkout-container">
                     <ul class="breadcrumbs checkout-page__breadcrumbs">
                         <li>
-                            <a href="./" class="breadcrumbs__link">
+                            <a href="./checkout.html" class="breadcrumbs__link">
                                 Home
                                 <img
                                     src="./assets/icons/arrow-right.svg"
@@ -121,7 +121,7 @@
                                             </p>
                                         </div>
                                         <button
-                                            class="user-address__btn btn btn--primary btn--rounded"
+                                            class="user-address__btn btn btn--primary btn--rounded btn--small"
                                         >
                                             <img
                                                 src="./assets/icons/plus.svg"
@@ -137,7 +137,16 @@
                                                 <div
                                                     class="address-card__choose"
                                                 >
-                                                    <!-- Custom checkbox -->
+                                                    <label
+                                                        class="address-card__checkbox"
+                                                    >
+                                                        <input
+                                                            type="checkbox"
+                                                            name=""
+                                                            checked
+                                                            class="address-card__checkbox-input"
+                                                        />
+                                                    </label>
                                                 </div>
                                                 <div class="address-card__info">
                                                     <h3
@@ -173,6 +182,7 @@
                                                         class="address-card__ctrl-btn"
                                                     >
                                                         <img
+                                                            class="icon"
                                                             src="./assets/icons/edit.svg"
                                                             alt=""
                                                         />
@@ -188,7 +198,15 @@
                                                 <div
                                                     class="address-card__choose"
                                                 >
-                                                    <!-- Custom checkbox -->
+                                                    <label
+                                                        class="address-card__checkbox"
+                                                    >
+                                                        <input
+                                                            type="checkbox"
+                                                            name=""
+                                                            class="address-card__checkbox-input"
+                                                        />
+                                                    </label>
                                                 </div>
                                                 <div class="address-card__info">
                                                     <h3
@@ -226,6 +244,7 @@
                                                         class="address-card__ctrl-btn"
                                                     >
                                                         <img
+                                                            class="icon"
                                                             src="./assets/icons/edit.svg"
                                                             alt=""
                                                         />
@@ -236,6 +255,8 @@
                                         </article>
                                     </div>
                                 </div>
+
+                                <div class="cart-info__separate"></div>
 
                                 <h2 class="cart-info__sub-heading">
                                     Items details
